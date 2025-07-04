@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sumaiya Online Service</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #e0f7ff;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background: #0288d1;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    header img {
+      max-width: 150px;
+      margin-bottom: 10px;
+    }
+    nav {
+      background: #03a9f4;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 10px;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+    }
+    form {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 400px;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input, textarea, select {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #0288d1;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      background: #0288d1;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="sumaiya_logo.jpg" alt="Sumaiya Logo">
+    <h1>সুমাইয়া অনলাইন সার্ভিস</h1>
+    <p>আপনার বিশ্বস্ত অনলাইন সঙ্গী</p>
+  </header>
+
+  <nav>
+    <a href="#services">সেবা</a>
+    <a href="#about">আমাদের সম্পর্কে</a>
+    <a href="#contact">যোগাযোগ</a>
+    <a href="#booking">বুকিং ফর্ম</a>
+  </nav>
+
+  <section id="services">
+    <h2>সেবা সমূহ</h2>
+    <ul>
+      <li>ফ্লাইট টিকিট বুকিং (ভারত ও আন্তর্জাতিক)</li>
+      <li>ট্রেন টিকিট – চেন্নাই, কেরালা, বেঙ্গালুরু, ইন্দোর</li>
+      <li>আবেদনপত্র, রিচার্জ, বিল পেমেন্ট</li>
+      <li>প্রিন্টিং ও অনলাইন ডকুমেন্ট জমা</li>
+    </ul>
+  </section>
+
+  <section id="about">
+    <h2>আমাদের সম্পর্কে</h2>
+    <p>সুমাইয়া অনলাইন সার্ভিস রংপুরের একটি বিশ্বস্ত ডিজিটাল সেবা কেন্দ্র।</p>
+  </section>
+
+  <section id="contact">
+    <h2>যোগাযোগ</h2>
+    <p>ঠিকানা: রংপুর</p>
+    <p>মোবাইল: 8167728819</p>
+    <p>যোগাযোগের ব্যক্তি: Jahirul Mandal</p>
+  </section>
+
+  <section id="booking">
+    <h2>টিকিট বুকিং ফর্ম</h2>
+    <form>
+      <input type="text" placeholder="আপনার নাম" required>
+      <input type="tel" placeholder="মোবাইল নম্বর" required>
+      <input type="text" placeholder="যাত্রার স্থান (From)" required>
+      <input type="text" placeholder="গন্তব্য (To)" required>
+      <input type="date" required>
+      <select required>
+        <option value="">পরিষেবা নির্বাচন করুন</option>
+        <option value="flight">ফ্লাইট টিকিট</option>
+        <option value="train">ট্রেন টিকিট</option>
+        <option value="other">অন্যান্য</option>
+      </select>
+      <textarea placeholder="অতিরিক্ত মন্তব্য"></textarea>
+      <button type="submit">বুকিং পাঠান</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 সুমাইয়া অনলাইন সার্ভিস</p>
+  </footer>
+</body>
+</html>
